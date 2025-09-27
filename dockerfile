@@ -1,3 +1,6 @@
+# Use official Nginx image
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
-EXPOSE 80
+
+# Copy your HTML file into Nginx default directory
+COPY index.html /usr/share/nginx/html/
+
