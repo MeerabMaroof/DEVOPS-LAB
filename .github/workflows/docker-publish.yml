@@ -22,4 +22,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: meerabmaroof/devops-lab:latest
+          tags: meerab146/devops-lab:latest
